@@ -104,3 +104,7 @@ clasificaciones tbody tr td{
     transition-property: all;
     transition-timing-function: linear;
 }
+.lista li{
+    color: yellow;
+    font-size: 2rem;
+}
