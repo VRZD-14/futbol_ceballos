@@ -6,9 +6,12 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
-    background-color: #03071E;
     color: white;
     text-align: center;
+    background-image: url(fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .clasi{
     font-size: 3rem;
