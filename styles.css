@@ -18,15 +18,13 @@ body{
     color: yellow;
 }
 .clasificaciones{
-    text-align: left;
-    width: 90%;
+    text-align: center;
+    width: 80%;
     margin: 0 auto;
     display: table;
 
 }
 .clasificaciones thead tr th{
-    font-weight: bold;
-    font-size: 1.1rem;
     background-color: #1f2739;
 }
 .clasificaciones tbody tr td{
@@ -50,6 +48,53 @@ clasificaciones tbody tr td{
 
 }
 .clasificaciones tbody tr td:hover{
+    background-color: red;
+    color: yellow;
+    box-shadow: orange -1px 1px,orange -2px 2px,orange -3px 3px,orange -4px 4px,orange -5px 5px,orange -6px 6px;
+    transform: translate3d(6px -6px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.goleo{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+    padding: 2 rem 0;
+    color: yellow;
+}
+.tablados{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+
+}
+.tablados thead tr th{
+    background-color: #1f2739;
+}
+.tablados tbody tr td{
+    font-size: 1rem;
+    text-align: center;
+
+}
+.tablados thead tr th,
+clasificaciones tbody tr td{
+    padding: 2%;
+
+}
+.tablados tbody tr:nth-child(odd){
+    background-color: #050c36;
+}
+.tablados tbody tr:nth-child(even){
+    background-color: #090f2e;
+}
+.tablados tbody tr td:first-child{
+    color: yellow;
+
+}
+.tablados tbody tr td:hover{
     background-color: red;
     color: yellow;
     box-shadow: orange -1px 1px,orange -2px 2px,orange -3px 3px,orange -4px 4px,orange -5px 5px,orange -6px 6px;
